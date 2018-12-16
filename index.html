@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Racing+Sans+One|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sara Mebrouka - Développeuse Web</title>
+  </head>
+  <body onload="load()" >
+    <header class="mobile-direction flex-base justify-around header-base-height base-color" onscroll="headerTransparent()" id="head">
+      <div class="Logo">
+        <img data-action="toggleMenu" src="./img/sara.png" class="imgLogo">
+      </div>
+      <!-- <div class="full-height auto-width flex-base">
+        <img  src="./img/menu.svg" height="100%">
+      </div> -->
+      <div>
+        <nav class="flex-base full-width full-height hidden">
+          <ul class="list-no-style flex-base full-height full-width justify-around mobile-direction">
+            <li class="full-height flex-base">
+              <a class="full-height flex-base accent-color-hover menu-item-padding" href="#accueil">Accueil</a>
+            </li>
+            <li class="full-height flex-base">
+              <a class="full-height flex-base accent-color-hover menu-item-padding" href="#Apropos">A propos</a>
+            </li>
+            <li class="full-height flex-base">
+              <a class="full-height flex-base accent-color-hover menu-item-padding" href="#competences">Compétences</a>
+            </li>
+            <li class="full-height flex-base">
+              <a class="full-height flex-base accent-color-hover menu-item-padding" href="#realisations">Réalisations</a>
+            </li>
+            <li class="full-height flex-base">
+              <a class="full-height flex-base accent-color-hover menu-item-padding" href="#contact">Contact</a>
+            </li>
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+    <main class="flex-base column-direction">
+
+      <section class="base-article flex-base intro" id="accueil">
+
+        <div>
+          <h1>SARA MEBROUKA</h1>
+          <h2>DÉVELOPPEUSE WEB</h2>
+        </div>
+      </section>
+
+
+      <section class="base-article flex-base" id="Apropos">
+        <div class="article-container flex-base column-direction align-content">
+          <h1>SARA MEBROUKA</h1>
+          <p>
+            Anciennement infirmière anesthésiste, passionée d'informatique, c'est tout naturellement que je me suis reconvertie dans le developpement web.
+            Je suis actuellement en prépa développeur Full Stack à l'it-Akademy et en recheche d'un stage et eventuellement d'une alternance.
+          </p>
+        </div>
+      </section>
+      <section class="base-article flex-base column-direction" id="competences">
+          <h1>COMPÉTENCES</h1>
+            <div class="progress">
+            <div id="progress_html"><p class="html"><img src="./img/html-5.svg" height="100%"> HTML 5</p></div>
+
+              <div id="progress_css"><p class="css"><img src="./img/css-3.svg" height="100%"> CSS 3</p></div>
+
+              <div id="progress_js"><p class="js"><img src="./img/javascript.svg" height="100%"> JAVASCRIPT</p></div>
+
+              <div id="progress_php"><p class="php"><img src="./img/php.svg" height="100%"> PHP 7</p></div>
+
+              <div id="progress_sql"><p class="sql"><img src="./img/mysql.svg" height="100%"> MYSQL</p></div>
+
+              <div id="progress_laravel"><p class="laravel"><img src="./img/laravel.png" height="100%"> Laravel</p></div>
+
+              <div id="progress_wordpress"><p class="wordpress"><img src="./img/wordpress.svg" height="100%"> Wordpress</p></div>
+
+              <div id="progress_nodejs"><p class="nodejs"><img src="./img/nodejs.svg" height="100%"> NodeJS</p></div>
+            </div>
+
+      </section>
+      <section class="base-article flex-base" id="realisations">
+          <h1>RÉALISATIONS</h1>
+          <div class=" base-article flex-base wrap-reverse">
+            <div class="article-container flex-base">
+              <a href="./SiteUnivers/index.html"><img class="full-height full-width" src="img/universe.png"></a>
+            </div>
+            <div class="article-container flex-base">
+              <a href="./tvSeries/index.html"><img class="full-height full-width" src="img/api-series.png"></a>
+            </div>
+          </div>
+
+      </section>
+      <section class="base-article flex-base" id="contact">
+        <div class="article-container flex-base column-direction align-content">
+          <h1>CONTACTEZ-MOI</h1>
+          <p>
+            Une idée, une question ? Envoyez-moi un message !
+          </p>
+
+          <h2><i class="far fa-envelope">S.mebrouka@it-students.fr</i></h2>
+          <div>
+            <ul class="flex-base list-no-style menu-flex">
+              <li><a href="https://www.linkedin.com/in/sara-mebrouka-a2aa67170/"><i class="fab fa-linkedin icons">  Linkedin</i></a></li>
+              <li><a href="https://github.com/SaraMeb"><i class="fab fa-github icons">GitHub</i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="flex-base">
+        <ul class="flex-base list-no-style menu-flex">
+          <li><a href="https://www.linkedin.com/in/sara-mebrouka-a2aa67170/"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/SaraMeb"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
